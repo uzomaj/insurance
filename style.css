@@ -1,146 +1,161 @@
 body {
-    background-color: #0D4A31;
+    background-color: #0d4a31;
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     box-shadow: none;
 
 }
+
 .menu,
 nav,
-ul{  
+ul {
     display: flex;
     flex-direction: row;
-
 }
+
 .menu{
     justify-content: space-between;
     padding: 20px 100px;
 }
 
-nav, ul{
+nav, ul {
     justify-content: center;
     align-items: center;
     gap: 40px;
-
+    position: relative;
+    right: 50px;
 }
-a{
+
+a {
     text-decoration: none;
-    color: #ffff;
-
+    color: #fff;
 }
 
-li{
+li {
     list-style: none;
+    text-transform: uppercase;
+
 }
 
-.signin-btn{
+.sign-in {
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 8px;
     padding: 12px 21px;
-    background-color:#F7C85A;
-    color: black;
+    background-color: #f7c85a;
+    color: #000;
 }
 
-.logo{
+.logo {
     color: #fff;
     text-transform: uppercase;
 }
 
-.image{
-    position: absolute;
-    right: 150px;
-}
-.images{
+
+.content {
+    flex: auto;
     position: relative;
-    width: 500.06px;
-    height: 50.7px;
-    top: 350px;
-    left: 100px;
+}
+
+.welcome {
+    font-family: "playfair display";
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 45px;
+    color: #fff;
+    position: absolute;
+    left: 80px;
+}
+
+p{
+   font-family: "roboto";
+   color: #fff;
+   position: absolute;
+   top: 170px;
+   left: 80px;
+
+}
+
+.button {
+    position: absolute;
+    left: 80px;
+    top: 300px;
+}
+
+.get-started {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 21px;
+    background-color: #f7c85a;
+    color: #000;
+    font-size: 12px;
+    font-family: "roboto";
+    text-transform: uppercase;
+    
+
+}
+
+.watch-video {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 12px 21px;
+    background-color: #0d4a31;
+    color: #fff;
+    font-size: 12px;
+    font-family: "roboto";
+    text-transform: uppercase;
     
 }
-.button{
-    position: relative;
-    left: 100px;
-    width: 500px;
+
+.jasindo {
+    position: absolute;
+    left: 80px;
+    top: 600px;
 }
-.button1{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5%;
-    padding: 12px 21px;
-    background-color:#F7C85A;
-    color: #000; 
-    font-size: 12px; 
-    width: 150px;
-    font-family: roboto;
-    height: 50px;
+
+.image {
+    position: absolute;
+    right: 250px;
 }
-.button2{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5%;
-    padding: 12px 21px;
-    background-color: #0D4A31;
-    color: #fff; 
-    font-size: 12px; 
-    width: 150px;
-    font-family: roboto;
-    height: 50px;
-} 
-.Welcome{
-    font-family: fairplay display;
-    color: #fff;
-    font-size: 50px;
+
+.logo-container {
     position: relative;
-    width: 601px;
-    height: 240.06px;
-    top: 192.px;
-    left: 100px;
-} 
-.class{
-    font-family: roboto;
-    position: relative;
-    bottom: 100px;
-    left: 100px;
-    width: 744.54px;
-    color: #fff;
 }
-.image323{
+
+.qualified {
+    position: absolute;
+    right: 690px;
+    bottom: -550px;
+}
+
+.after {
     position: absolute;
     right: 100px;
-    bottom: 0.3px;
-    
+    bottom: -680px;
 }
-.image326{
+
+.lock {
     position: absolute;
-    bottom: 5px;
     left: 650px;
-    width: 200px;  
+    bottom: -200px;
 }
-.image324{
+
+.web {
     position: absolute;
-    bottom: 200px;
-    left: 700px;
-    /* width: 200px; */ 
+    right: 450px;
 }
-.image327{
+
+.star {
     position: absolute;
-    right: 150px;
-    bottom: 350px; 
+    right: 170px;
+    top: 230px;
 }
-.image328{
-    position: relative;
-    width: 500.06px;
-    /* height: 50.7px;
-    top: 350px;
-    left: 100px; */
-}
-
-
-
